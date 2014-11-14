@@ -11,7 +11,7 @@ A repo of chocolatey packages I maintain.
 | `ToDo` | angryipscanner                  | Fast and friendly network scanner.                                   |
 | `ToDo` | ventrilo-client                 | Surround sound voice communication software.                         |
 | `ToDo` | Help mwrock w/ VS Community     |                                                                      |
-| `ToDo` | Help chaliy w/ new [rust]       |                                                                      |
+| `Done` | Help chaliy w/ new [rust]       | Waiting approval on [pull request]                                  |
 
 
 
@@ -20,3 +20,4 @@ A repo of chocolatey packages I maintain.
 <!-- Links -->
 [clumsy]: https://chocolatey.org/packages/clumsy
 [rust]: https://chocolatey.org/packages/rust
+[pull request]: https://github.com/chaliy/chaliy-chocolatey-packages/pull/1
