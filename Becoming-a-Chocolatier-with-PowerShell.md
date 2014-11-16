@@ -4,7 +4,7 @@ When it comes to building [Chocolatey] Packages with PowerShell there are many p
 ## The Basics
 As far as I know, there are basically 2 different ways to build [Chocolatey] packages.
 1. Manually building and maintaining packages.
-2. Automatically building and maintaining packages.
+2. Automatically building and maintaining packages using templates.
 
 In this article, I will be focusing on the 2nd way, automatically. I also make the assumption you are using PowerShell v4.
 
@@ -12,35 +12,72 @@ In this article, I will be focusing on the 2nd way, automatically. I also make t
 You'll need a few things to become a chocolatier.
 1. [Chocolatey]. - The apt-get style package manager for Windows. You are making packages for use with Chocolatey.
 2. [Git]. - If you're not using version control, you shouldn't be a maintainer.
-3. [PSReadLine]. - This adds a lot of great functionality to PowerShell.
-4. [Posh-Git]. - This allows you to manage your git repository from PowerShell.
-5. [WarmUp]. - This helps you define templates and change them as you become a better chocolatier.
-6. [Chocolatey Templates].
+3. [Posh-Git]. - This allows you to manage your git repository from PowerShell.
+4. [WarmUp]. - This helps you define templates and change them as you become a better chocolatier.
+5. [Chocolatey Templates].
 
 ## Setting up your kitchen. (Environment)
 1. **Install Chocolatey**.
-
-  Open a PowerShell window **As an Administrator**.
-
-  Set your ExecutionPolicy to RemoteSigned and install Chocolatey.
   ```powershell
+  # Open a PowerShell window **As an Administrator**.
+  # Set your ExecutionPolicy to RemoteSigned
   Set-ExecutionPolicy RemoteSigned
+
+  # Install Chocolatey
   Invoke-Expression ((New-Object Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
   ```
 2. **Install Git**:
 
-  Close and re-open your PowerShell window **As an Administrator**.
-
-  Install git.
   ```powershell
-  chocolatey install git
-  ```
-3. **Install PSReadLine** (Note To Self: Make Chocolatey Package for this if possible.)
+  # Close and re-open your PowerShell window **As an Administrator**.
 
-  
+  # Install git.
+  chocolatey install git
+
+  # Add git/bin to your system PATH.
+  # You may want to enter these commands one at a time. (Will try to fix later.)
+  $RegPath = "HKLM:\SYSTEM\CurrentControlSet\Control\Session Manager\Environment\"
+  $Current = (Get-ItemProperty $RegPath).Path
+  $New = ($Current + ';C:\Program Files (x86)\Git\bin')
+  Set-ItemProperty $RegPath -Name Path -Value $New
+  ```
+
+3. **Install Posh-Git**:
+  ```powershell
+  chocolatey install poshgit
+  ```
+4. **Install Warmup**:
+  ```powershell
+  # Install Warmup
+  chocolatey install warmup
+
+  # Configure Warmup. (Set your Package Maintainer Name and Repository)
+  warmup addTextReplacement __CHOCO_PKG_MAINTAINER_NAME__ "Your Name"
+  warmup addTextReplacement __CHOCO_PKG_MAINTAINER_REPO__ "your/repo" #Ex: "alexinslc/chocolatey-packages"
+  ```
+
+5. ** Install the Chocolatey Templates**:
+
+   ```powershell
+   # Change to your Chocolatey Repo, Ex: cd C:\projects\chocolatey-packages
+   cd Path\To\Your\Chocolatey\Repo
+
+   # Download the Chocolatey Templates
+   git clone https://github.com/chocolatey/chocolateytemplates.git
+
+   #Enter the _templates Directory
+   cd .\chocolateytemplates\_templates
+
+   # Configure templates. This essentially creates some nice symlinks for you.
+   warmup addTemplateFolder chocolatey ((pwd).Path + "\chocolatey")
+   warmup addTemplateFolder chocolatey3 ((pwd).Path + "\chocolatey3")
+   warmup addTemplateFolder chocolateyauto ((pwd).Path + "\chocolateyauto")
+   warmup addTemplateFolder chocolateyauto3 ((pwd).Path + "\chocolateyauto3")
+   ```
+
+
 <!-- Links -->
 [Chocolatey]: https://chocolatey.org/
-[PSReadLine]: https://github.com/lzybkr/PSReadLine
 [Git]: http://git-scm.com/
 [Posh-Git]: https://github.com/dahlbyk/posh-git
 [WarmUp]: https://github.com/chucknorris/warmup
