@@ -56,7 +56,7 @@ You'll need a few things to become a chocolatier.
   warmup addTextReplacement __CHOCO_PKG_MAINTAINER_REPO__ "your/repo" #Ex: "alexinslc/chocolatey-packages"
   ```
 
-5. ** Install the Chocolatey Templates**:
+5. **Install the Chocolatey Templates**:
 
    ```powershell
    # Change to your Chocolatey Repo, Ex: cd C:\projects\chocolatey-packages
@@ -86,29 +86,3 @@ You'll need a few things to become a chocolatier.
 
 
 <!-- Information -->
-Id CommandLine
--- -----------
-D:\projects\chocolatey-packages\chocolateytemplates\_templates
- 1 cd D:\projects\chocolatey-packages\
- 2 clear
- 3 warmup addTextReplacement __CHOCO_PKG_MAINTAINER_NAME__ "Alex Lutz"
- 4 warmup addTextReplacement __CHOCO_PKG_MAINTAINER_REPO__ "alexinslc/chocolatey-packages/rvtools"
- 5 git clone https://github.com/chocolatey/chocolateytemplates.git
- 6 git status
- 7 clear
- 8 git status
- 9 git add chocolateytemplates/*
-10 git status
-11 cd .\chocolateytemplates\_templates
-12 clear
-13 pwd
-14 (pwd).Path
-15 warmup addTemplateFolder chocolatey ((pwd).Path + "\chocolatey")
-16 warmup addTemplateFolder chocolatey3 ((pwd).Path + "\chocolatey3")
-17 warmup addTemplateFolder chocolateyauto ((pwd).Path + "\chocolateyauto")
-18 warmup addTemplateFolder chocolateyauto3 ((pwd).Path + "\chocolateyauto3")
-19 choco update atom
-20 history
-21 Get-ExecutionPolicy
-22 git
-23 clear
