@@ -10,6 +10,7 @@ In this article, I will be focusing on the 2nd way, automatically. I also make t
 
 ## Gathering the Ingredients (Prerequisites)
 You'll need a few things to become a chocolatier.
+
 1. [Chocolatey]. - The apt-get style package manager for Windows. You are making packages for use with Chocolatey.
 2. [Git]. - If you're not using version control, you shouldn't be a maintainer.
 3. [Posh-Git]. - This allows you to manage your git repository from PowerShell.
