@@ -1,2 +1,6 @@
 #binaries
 *.nupkg
+
+# Ignore the Chocolatey Templates folder.
+chocolateytemplates
+chocolateytemplates/*
