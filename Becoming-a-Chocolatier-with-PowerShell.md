@@ -1,5 +1,5 @@
 ## Becoming a Chocolatier with PowerShell.
-When it comes to building [Chocolatey] Packages with PowerShell there are many places you can read about how to use Windows `cmd.exe` to build, configure, and maintain them. Personally, I **try** to avoid the Windows Command Prompt simply because I feel that Powershell provides more *power* and functionality on Windows. My newly found interest in [Chocolately] and love for PowerShell prompted me to write this article.
+When it comes to building [Chocolatey] Packages with PowerShell there are many places you can read about how to use Windows `cmd.exe` to build, configure, and maintain them. Personally, I **try** to avoid the Windows Command Prompt simply because I feel that Powershell provides more *power* and functionality on Windows. My newly found interest in [Chocolatey] and love for PowerShell prompted me to write this article.
 
 ## The Basics
 As far as I know, there are basically 2 different ways to build [Chocolatey] packages.
@@ -76,14 +76,44 @@ You'll need a few things to become a chocolatier.
    warmup addTemplateFolder chocolateyauto3 ((pwd).Path + "\chocolateyauto3")
    ```
 
+## Molding and Tempering. (Creating your package.)
+
+1. Using your new templates generate your chocolatey package
+
+  ```powershell
+  # Use warmup to create a new package template.
+  # TemplateName: (chocolatey|chocolatey3|chocolateyauto|chocolateyauto3)
+  # Ex: warmup chocolatey Skype
+  warmup templateName packageName
+  ```
+2. Setup your installation files.  
+
+3. Use Chocolatey to create your package.
+   ```powershell
+   # Change directory to where your .nuspec file is.
+   cd Path\To\The\package\.nuspec
+
+   # Create your package file using Chocolatey. This will create a .nupkg file. This is your package!
+   chocolatey pack
+   ```
+## Boxing. (Submitting your package(s) to [Chocolatey.org])
+
+1. Create an account on [Chocolatey.org] and login.
+2. 
+
+
+
+
+
+
+
+
+
 
 <!-- Links -->
 [Chocolatey]: https://chocolatey.org/
+[Chocolatey.org]: https://chocolatey.org/
 [Git]: http://git-scm.com/
 [Posh-Git]: https://github.com/dahlbyk/posh-git
 [WarmUp]: https://github.com/chucknorris/warmup
 [Chocolatey Templates]: https://github.com/chocolatey/chocolateytemplates
-[]:
-
-
-<!-- Information -->
