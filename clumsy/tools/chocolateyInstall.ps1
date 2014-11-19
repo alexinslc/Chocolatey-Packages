@@ -4,10 +4,12 @@ $dest = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
 . $(Join-Path $dest "functions.ps1")
 
 # Install Zip
-$packageName = 'clumsy' # arbitrary name for the package, used in messages
-$url = 'https://github.com/jagt/clumsy/releases/download/0.1/clumsy-0.1-win64.zip' # download url
-$url64 = $url # 64bit URL here or remove - if installer decides, then use $url
-Install-ChocolateyZipPackage "$packageName" "$url" "$dest" "$url64"
+$packageName = 'clumsy'
+$url = 'https://github.com/jagt/clumsy/releases/download/0.1/clumsy-0.1-win32.zip'
+$url64 = 'https://github.com/jagt/clumsy/releases/download/0.1/clumsy-0.1-win64.zip'
+$checksum = 'B8EB28C399F15F02112F5461F6465153'
+$checksum64 = 'E75419E28321CDC2CB4CA6F9E4044FD0'
+Install-ChocolateyZipPackage "$packageName" "$url" "$dest" "$url64" -checksum $checksum -checksum64 $checksum64
 $exePath = $dest + '\clumsy.exe'
 
 # Install desktop shortcut
