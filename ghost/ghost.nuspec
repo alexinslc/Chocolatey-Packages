@@ -6,16 +6,16 @@
     <id>ghost</id>
     <title>ghost</title>
     <version>0.5.5</version>
-    <authors>__REPLACE__</authors>
-    <owners>__CHOCO_PKG_MAINTAINER_NAME__</owners>
-    <summary>__REPLACE__</summary>
-    <description>__REPLACE__</description>
-    <projectUrl>__REPLACE__</projectUrl>
-    <tags>ghost admin</tags>
-    <copyright></copyright>
+    <authors>John O' Nolan, Hannah Wolfe</authors>
+    <owners>Alex Lutz</owners>
+    <summary>Ghost is a free, open, simple blogging platform.</summary>
+    <description>Ghost is a simple, powerful publishing platform that allows you to share your stories with the world.</description>
+    <projectUrl>https://github.com/tryghost/Ghost</projectUrl>
+    <tags>ghost admin nodejs blog</tags>
+    <copyright>The Ghost Foundation</copyright>
     <licenseUrl>https://ghost.org/about/license/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!--<iconUrl>http://cdn.rawgit.com/__CHOCO_PKG_MAINTAINER_REPO__/master/icons/ghost.png</iconUrl>-->
+    <iconUrl>http://cdn.rawgit.com/alexinslc-chocolatey-packages/master/icons/ghost.png</iconUrl>
     <dependencies>
       <dependency id="nodejs" version="0.10.33" />
     </dependencies>
