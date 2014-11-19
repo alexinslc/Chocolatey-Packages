@@ -1,4 +1,9 @@
-$packageName = 'ghost'
-$url = 'https://ghost.org/zip/ghost-0.5.5.zip'
-$url64 = $url
-Install-ChocolateyZipPackage "$packageName" "$url" "$(Split-Path -parent $MyInvocation.MyCommand.Definition)" "$url64"
+try {
+  $toolsDir ="$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+  Start-ChocolateyProcessAsAdmin "& $($toolsDir)\installghost.ps1"
+
+  Write-ChocolateySuccess 'ghost'
+} catch {
+  Write-ChocolateyFailure 'ghost' "$($_.Exception.Message)"
+  throw
+}
