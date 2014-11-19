@@ -3,7 +3,9 @@
 // When run from command line.
 
 // Get chocolatey environment variable and change to that directory.
-process.chdir(process.env.ChocolateyBinRoot + '/ghost');
+var ChocolateyBinRoot = process.env.ChocolateyBinRoot;
+var GhostDir = path.join(ChocolateyBinRoot,'ghost');
+process.chdir(GhostDir);
 
 var express,
     ghost,
