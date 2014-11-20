@@ -1,9 +1,34 @@
 try {
-  $toolsDir ="$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-  Start-ChocolateyProcessAsAdmin "& $($toolsDir)\installghost.ps1"
+  # Install Zip
+  $packageName = "ghost"
+  $serviceName = "ghost.exe"
+  $packageVersion = "0.5.5"
 
-  Write-ChocolateySuccess 'ghost'
+  # Build postUnzipDir could clean this up later with Join-Path
+  $postUnzipDir = ($env:ChocolateyInstall + "\lib\" + $packageName + "." + $packageVersion)
+  $dest = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
+  $url = "https://ghost.org/zip/ghost-0.5.5.zip"
+  $url64 = $url
+  $checksum = '5C30A411FAA7716D2852435AFD2FF2C7'
+  Install-ChocolateyZipPackage "$packageName" "$url" "$dest" "$url64" -checksum $checksum
+
+  # Copy over special configuration files
+  Copy-Item $dest\CreateService.js $postUnzipDir > $null
+  Copy-Item $dest\DeleteService.js $postUnzipDir > $null
+  Copy-Item $dest\index.js $postUnzipDir -Force > $null
+  Copy-Item $dest\package.json $postUnzipDir -Force > $null
+
+  # Install the node_modules via npm
+  Write-Host "Installing node modules."
+  cd $postUnzipDir
+  npm install --production
+
+  # Create the windows service
+  Write-Host ("Creating the " + $packageName + " service as " + $serviceName)
+  node .\CreateService.js
+
+  Write-ChocolateySuccess $packageName
 } catch {
-  Write-ChocolateyFailure 'ghost' "$($_.Exception.Message)"
+  Write-ChocolateyFailure $packageName $($_.Exception.Message)
   throw
 }

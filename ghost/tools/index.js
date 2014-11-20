@@ -3,8 +3,10 @@
 // When run from command line.
 
 // Get chocolatey environment variable and change to that directory.
-var ChocolateyBinRoot = process.env.ChocolateyBinRoot;
-var GhostDir = path.join(ChocolateyBinRoot,'ghost');
+var ChocolateyInstall = process.env.ChocolateyInstall;
+var PackageName = 'ghost';
+var PackageVersion = '0.5.5';
+var GhostDir = path.join(ChocolateyInstall,'lib',PackageName,PackageVersion);
 process.chdir(GhostDir);
 
 var express,
