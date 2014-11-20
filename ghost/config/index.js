@@ -1,14 +1,6 @@
 // # Ghost bootloader
 // Orchestrates the loading of Ghost
 // When run from command line.
-
-// Get chocolatey environment variable and change to that directory.
-var ChocolateyInstall = process.env.ChocolateyInstall;
-var PackageName = 'ghost';
-var PackageVersion = '0.5.5';
-var GhostDir = path.join(ChocolateyInstall,'lib',PackageName,PackageVersion);
-process.chdir(GhostDir);
-
 var express,
     ghost,
     parentApp,

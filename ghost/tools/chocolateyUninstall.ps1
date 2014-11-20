@@ -5,12 +5,12 @@ try {
   $packageVersion = "0.5.5"
   $serviceName = "ghost.exe"
   $zipFileName = "ghost-0.5.5.zip"
-  $postUnzipDir = ($env:ChocolateyInstall + "\lib\" + $packageName + "." + $packageVersion + 'tools\')
+  $packageDir = ($env:ChocolateyInstall + "\lib\" + $packageName + "." + $packageVersion)
 
   Write-Host "Stopping the service `'$serviceName`'."
   sc stop $serviceName
 
-  cd $postUnzipDir
+  cd $dest
   Write-Host "Removing the service `'$serviceName`'."
   node .\DeleteService.js
 
