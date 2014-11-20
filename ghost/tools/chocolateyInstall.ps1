@@ -9,7 +9,7 @@ try {
   $dest = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
   $url = "https://ghost.org/zip/ghost-0.5.5.zip"
   $url64 = $url
-  $checksum = '5C30A411FAA7716D2852435AFD2FF2C7'
+  $checksum = '066B9A1377128C325829657FE7441BCE'
   Install-ChocolateyZipPackage "$packageName" "$url" "$dest" "$url64" -checksum $checksum
 
   # Copy over special configuration files
