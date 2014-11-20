@@ -17,7 +17,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/alexinslc/alexinslc-chocolatey-packages/master/ghost/ghost.png</iconUrl>
     <dependencies>
-      <dependency id="nodejs" version="" />
+      <dependency id="nodejs" />
     </dependencies>
     <releaseNotes></releaseNotes>
   </metadata>
