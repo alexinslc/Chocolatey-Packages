@@ -5,7 +5,7 @@ try {
   $packageVersion = "0.5.5"
 
   # Build postUnzipDir could clean this up later with Join-Path
-  $postUnzipDir = ($env:ChocolateyInstall + "\lib\" + $packageName + "." + $packageVersion)
+  $postUnzipDir = ($env:ChocolateyInstall + "\lib\" + $packageName + "." + $packageVersion + 'tools\')
   $dest = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
   $url = "https://ghost.org/zip/ghost-0.5.5.zip"
   $url64 = $url
@@ -13,11 +13,12 @@ try {
   Install-ChocolateyZipPackage "$packageName" "$url" "$dest" "$url64" -checksum $checksum
 
   # Copy over special configuration files
-  Copy-Item $dest\CreateService.js $postUnzipDir > $null
-  Copy-Item $dest\DeleteService.js $postUnzipDir > $null
-  Copy-Item $dest\index.js $postUnzipDir -Force > $null
-  Copy-Item $dest\package.json $postUnzipDir -Force > $null
+  Copy-Item $dest\CreateService.js $postUnzipDir
+  Copy-Item $dest\DeleteService.js $postUnzipDir
+  Copy-Item $dest\index.js $postUnzipDir
+  Copy-Item $dest\package.json $postUnzipDir
 
+  Read-Host "WAITING!!!"
   # Install the node_modules via npm
   Write-Host "Installing node modules."
   cd $postUnzipDir

@@ -5,7 +5,7 @@ try {
   $packageVersion = "0.5.5"
   $serviceName = "ghost.exe"
   $zipFileName = "ghost-0.5.5.zip"
-  $ghostInstalledDir = ($env:ChocolateyInstall + "\lib\" + $packageName + "." + $packageVersion)
+  $postUnzipDir = ($env:ChocolateyInstall + "\lib\" + $packageName + "." + $packageVersion + 'tools\')
 
   Write-Host "Stopping the service `'$serviceName`'."
   sc stop $serviceName
