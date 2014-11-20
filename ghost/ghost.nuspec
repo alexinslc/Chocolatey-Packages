@@ -9,7 +9,10 @@
     <authors>John O' Nolan, Hannah Wolfe</authors>
     <owners>Alex Lutz</owners>
     <summary>Ghost is a free, open, simple blogging platform.</summary>
-    <description>Ghost is a simple, powerful publishing platform that allows you to share your stories with the world.</description>
+    <description>
+      Ghost is a simple, powerful publishing platform that allows you to share your stories with the world. This Chocolatey package will install
+      Ghost as a Windows service.
+    </description>
     <projectUrl>https://github.com/tryghost/Ghost</projectUrl>
     <tags>ghost admin nodejs blog</tags>
     <copyright>The Ghost Foundation</copyright>
