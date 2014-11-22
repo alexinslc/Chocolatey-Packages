@@ -4,22 +4,28 @@
   <metadata>
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>rvtools</id>
-    <title>__REPLACE__</title>
-    <version>__REPLACE__</version>
-    <authors>__REPLACE__</authors>
-    <owners>__CHOCO_PKG_MAINTAINER_NAME__</owners>
-    <summary>__REPLACE__</summary>
-    <description>__REPLACE__</description>
-    <projectUrl>__REPLACE__</projectUrl>
-    <tags>rvtools admin</tags>
-    <copyright></copyright>
-    <licenseUrl>__REPLACE__</licenseUrl>
+    <title>rvtools</title>
+    <version>3.6</version>
+    <authors>Rob de Veij</authors>
+    <owners>Alex Lutz</owners>
+    <summary>RVTools is an application to gather helpful information from VMware infrastructure.</summary>
+    <description>
+      RVTools is a windows .NET 2.0 application which uses the VI SDK to display information
+      about your virtual machines and ESX hosts. Interacting with VirtualCenter 2.5, ESX
+      Server 3.5, ESX Server 3i, ESX Server 4i, VirtualCenter 4.0, ESX Server 4.0,
+      VirtualCenter 4.1, ESX Server 4.1, VirtualCenter 5.0, VirtualCenter Appliance, ESX Server
+      5.0, VirtualCenter 5.1, ESX Server 5.1, VirtualCenter 5.5 and ESX Server 5.5.
+    </description>
+    <projectUrl>http://robware.net/</projectUrl>
+    <tags>rvtools admin vmware esx utility windows</tags>
+    <copyright>Robware</copyright>
+    <licenseUrl>http://robware.net/index.php/license</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!--<iconUrl>http://cdn.rawgit.com/__CHOCO_PKG_MAINTAINER_REPO__/master/icons/rvtools.png</iconUrl>-->
+    <iconUrl>http://cdn.rawgit.com/__CHOCO_PKG_MAINTAINER_REPO__/master/icons/rvtools.png</iconUrl>
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->
-    <releaseNotes></releaseNotes>
+    <releaseNotes>http://robware.net/index.php/version-info</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
