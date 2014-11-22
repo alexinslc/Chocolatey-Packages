@@ -5,12 +5,13 @@ A repo of [Chocolatey] packages I maintain.
 | Status | Package Name                    | Description                                                          |
 |--------|---------------------------------|----------------------------------------------------------------------|
 |  `New` | [clumsy]                        | Windows networking tool to alter packets.                            |
-| `ToDo` | rvtools                         | Display information about VMware ESX VMs and more.                   |
+| `Submitted` | [rvtools]                        | Display information about VMware ESX VMs and more.                   |
+| `Submitted` | [ghost]                          | Simple blogging platform built on [node.js]                          |
+| `Submitted` | [wireedit]                       | A Full Stack WYSIWYG Editor for Network Packets.                     |
 | `ToDo` | rescuetime                      | Understand daily habits so you can focus and be more productive.     |
-| `ToDo` | wireedit                        | A Full Stack WYSIWYG Editor for Network Packets.                     |
 | `ToDo` | angryipscanner                  | Fast and friendly network scanner.                                   |
 | `ToDo` | ventrilo-client                 | Surround sound voice communication software.                         |
-| `ToDo` | ghost                           | Simple blogging platform built on [node.js]                          |
+
 
 
 ## Community Work - My personal task list
@@ -25,6 +26,9 @@ A repo of [Chocolatey] packages I maintain.
 
 [Chocolatey]: https://chocolatey.org/
 [clumsy]: https://chocolatey.org/packages/clumsy
+[rvtools]: https://chocolatey.org/packages/rvtools
+[ghost]: https://chocolatey.org/packages/ghost
+[wireedit]: https://chocolatey.org/packages/wireedit
 [rust]: https://chocolatey.org/packages/rust
 [pull request]: https://github.com/mwrock/Chocolatey-Packages/pull/23
 [node.js]: http://nodejs.org/
