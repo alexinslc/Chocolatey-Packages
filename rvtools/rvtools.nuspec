@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>rvtools</id>
     <title>rvtools</title>
-    <version>3.6.4</version>
+    <version>3.6.4.1</version>
     <authors>Rob de Veij</authors>
     <owners>Alex Lutz</owners>
     <summary>RVTools is an application to gather helpful information from VMware infrastructure.</summary>
