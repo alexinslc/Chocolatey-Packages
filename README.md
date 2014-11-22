@@ -2,9 +2,9 @@
 A repo of [Chocolatey] packages I maintain.
 
 ## Let's get Chocolatey!
-| Status | Package Name                    | Description                                                          |
+| Downloads | Package Name                    | Description                                                          |
 |--------|---------------------------------|----------------------------------------------------------------------|
-|  `New` | [clumsy]                        | Windows networking tool to alter packets.                            |
+| [![](http://img.shields.io/chocolatey/dt/clumsy.svg) | [clumsy]                        | Windows networking tool to alter packets.                            |
 | `Submitted` | [rvtools]                        | Display information about VMware ESX VMs and more.                   |
 | `Submitted` | [ghost]                          | Simple blogging platform built on [node.js]                          |
 | `Submitted` | [wireedit]                       | A Full Stack WYSIWYG Editor for Network Packets.                     |
