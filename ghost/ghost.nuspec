@@ -18,7 +18,7 @@
     <copyright>The Ghost Foundation</copyright>
     <licenseUrl>https://ghost.org/about/license/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/alexinslc/alexinslc-chocolatey-packages/master/ghost/ghost.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/alexinslc/alexinslc-chocolatey-packages/master/_icons/ghost.png</iconUrl>
     <dependencies>
       <dependency id="nodejs" />
     </dependencies>

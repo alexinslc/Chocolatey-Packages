@@ -21,7 +21,7 @@
     <copyright>Robware</copyright>
     <licenseUrl>http://robware.net/index.php/license</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/alexinslc/alexinslc-chocolatey-packages/master/rvtools/tools/RVTools.ico</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/alexinslc/alexinslc-chocolatey-packages/master/_icons/RVTools.ico</iconUrl>
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->
