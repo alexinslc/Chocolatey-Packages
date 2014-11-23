@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if ??? doesn?t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>firefox-dev</id>
+    <title>firefox-dev</title>
+    <version>35.02.0</version>
+    <authors>Mozilla</authors>
+    <owners>Alex Lutz</owners>
+    <summary>Firefox Developer Edition.</summary>
+    <description>Firefox built for those that build the web.</description>
+    <projectUrl>https://www.mozilla.org/en-US/firefox/developer/</projectUrl>
+    <tags>firefox-dev admin developer firefox</tags>
+    <copyright>Mozilla.org</copyright>
+    <licenseUrl>https://www.mozilla.org/en-US/foundation/licensing/website-content/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/alexinslc/alexinslc-chocolatey-packages/master/_icons/firefox-dev.png</iconUrl>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>
+    - Create uninstall script.
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

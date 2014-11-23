@@ -9,8 +9,8 @@ A repo of [Chocolatey] packages I maintain.
 | `Submitted` | [ghost]                          | Simple blogging platform built on [node.js]                          |
 | `Submitted` | [wireedit]                       | A Full Stack WYSIWYG Editor for Network Packets.                     |
 | `Submitted` | [visualstudio2015preview]        | Visual Studio 2015 Preview.                                          |
+| `Submitted` | [firefox-dev]                    | Firefox Developer Edition                                            |
 | `ToDo` | angryipscanner                        | Fast and friendly network scanner.                                   |
-| `ToDo` | ventrilo-client                       | Surround sound voice communication software.                         |
 
 
 ## Community Work - My personal task list
@@ -37,3 +37,4 @@ A repo of [Chocolatey] packages I maintain.
 [node.js]: http://nodejs.org/
 [visualstudio2015preview]: https://chocolatey.org/packages/visualstudio2015preview
 [rescuetime]: https://www.rescuetime.com/installers/RescueTimeInstaller.exe
+[firefox-dev]: https://chocolatey.org/packages/firefox-dev
