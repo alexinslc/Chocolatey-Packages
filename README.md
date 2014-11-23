@@ -3,24 +3,27 @@ A repo of [Chocolatey] packages I maintain.
 
 ## Let's get Chocolatey!
 | Downloads | Package Name                    | Description                                                          |
-|--------|---------------------------------|----------------------------------------------------------------------|
+|-----------|---------------------------------|----------------------------------------------------------------------|
 | [![](http://img.shields.io/chocolatey/dt/clumsy.svg)](https://chocolatey.org/packages/clumsy) | [clumsy]                        | Windows networking tool to alter packets.                            |
 | `Submitted` | [rvtools]                        | Display information about VMware ESX VMs and more.                   |
 | `Submitted` | [ghost]                          | Simple blogging platform built on [node.js]                          |
 | `Submitted` | [wireedit]                       | A Full Stack WYSIWYG Editor for Network Packets.                     |
-| `ToDo` | rescuetime                      | Understand daily habits so you can focus and be more productive.     |
-| `ToDo` | angryipscanner                  | Fast and friendly network scanner.                                   |
-| `ToDo` | ventrilo-client                 | Surround sound voice communication software.                         |
-
+| `Submitted` | [visualstudio2015preview]        | Visual Studio 2015 Preview.                                          |
+| `ToDo` | angryipscanner                        | Fast and friendly network scanner.                                   |
+| `ToDo` | ventrilo-client                       | Surround sound voice communication software.                         |
 
 
 ## Community Work - My personal task list
-| Status        | Task                            | More Info                                                            |
-|---------------|---------------------------------|----------------------------------------------------------------------|
+| Status        | Task                                   | More Info                                                            |
+|---------------|----------------------------------------|----------------------------------------------------------------------|
+| `ToDo`        | Update RaidCall to newest version.     | Forked mom1's repo, working on it.                                   |
+| `ToDo`        | Status of LoL package?                 | Contacted maintainer to see if he's continuing maintenance.          |
 | `In-Progress` | Create Chocolatey Guide         | Simple yet detailed guide on managing Chocolatey packages.           |
 | `Done`        | Help mwrock w/ VS Community     | Waiting approval on [pull request]                                   |
 | `Done`        | Help mwrock w/ VS 2015 Preview  | Waiting approval on [pull request]                                   |
 | `Done`        | Help chaliy w/ new [rust]       | Done, updated [rust] installer.                                      |
+
+
 
 <!-- Links -->
 
@@ -32,3 +35,5 @@ A repo of [Chocolatey] packages I maintain.
 [rust]: https://chocolatey.org/packages/rust
 [pull request]: https://github.com/mwrock/Chocolatey-Packages/pull/23
 [node.js]: http://nodejs.org/
+[visualstudio2015preview]: https://chocolatey.org/packages/visualstudio2015preview
+[rescuetime]: https://www.rescuetime.com/installers/RescueTimeInstaller.exe
