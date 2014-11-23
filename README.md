@@ -9,7 +9,6 @@ A repo of [Chocolatey] packages I maintain.
 | `Submitted` | [ghost]                          | Simple blogging platform built on [node.js]                          |
 | `Submitted` | [wireedit]                       | A Full Stack WYSIWYG Editor for Network Packets.                     |
 | `Submitted` | [visualstudio2015preview]        | Visual Studio 2015 Preview.                                          |
-| `Submitted` | [firefox-dev]                    | Firefox Developer Edition                                            |
 | `ToDo` | angryipscanner                        | Fast and friendly network scanner.                                   |
 
 
