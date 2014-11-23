@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <version>14.0.22310</version>
+    <version>14.0.22310.1</version>
     <authors>Microsoft</authors>
     <owners>Alex Lutz</owners>
     <projectUrl>http://www.visualstudio.com/en-us</projectUrl>
     <licenseUrl>http://msdn.microsoft.com/en-US/cc300389.aspx</licenseUrl>
-    <iconUrl>https://github.com/mwrock/Chocolatey-Packages/raw/master/VisualStudio2015Preview/vs.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/alexinslc/alexinslc-chocolatey-packages/master/_icons/vs.png</iconUrl>
     <id>VisualStudio2015Preview</id>
     <title>Visual Studio 2015 - Preview</title>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
