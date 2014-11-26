@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>wireedit</id>
     <title>wireedit</title>
-    <version>0.11.430.1</version>
+    <version>0.11.430</version>
     <authors>Omnipacket</authors>
     <owners>Alex Lutz</owners>
     <summary>A Full Stack WYSIWYG Editor for Network Packets</summary>

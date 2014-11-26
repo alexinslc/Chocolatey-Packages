@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <version>14.0.22310.1</version>
+    <version>14.0.22310</version>
     <authors>Microsoft</authors>
     <owners>Alex Lutz</owners>
     <projectUrl>http://www.visualstudio.com/en-us</projectUrl>
