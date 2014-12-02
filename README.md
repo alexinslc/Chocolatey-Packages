@@ -7,20 +7,16 @@ A repo of [Chocolatey] packages I maintain.
 | [![](http://img.shields.io/chocolatey/dt/ghost.svg)](https://chocolatey.org/packages/ghost) | [ghost]                          | Simple blogging platform built on [node.js]                          |
 | [![](http://img.shields.io/chocolatey/dt/clumsy.svg)](https://chocolatey.org/packages/clumsy) | [clumsy]                        | Windows networking tool to alter packets.                            |
 | [![](http://img.shields.io/chocolatey/dt/rvtools.svg)](https://chocolatey.org/packages/rvtools) | [rvtools]                        | Display information about VMware ESX VMs and more.                   |
-| `Submitted` | [wireedit]                       | A Full Stack WYSIWYG Editor for Network Packets.                     |
-| `Submitted` | [visualstudio2015preview]        | Visual Studio 2015 Preview.                                          |
+| [![](http://img.shields.io/chocolatey/dt/wireedit.svg)](https://chocolatey.org/packages/wireedit) | [wireedit]                       | A Full Stack WYSIWYG Editor for Network Packets.                     |
+| [![](http://img.shields.io/chocolatey/dt/visualstudio2015ultimate.svg)](https://chocolatey.org/packages/visualstudio2015ultimate) | [visualstudio2015preview]        | Visual Studio 2015 Preview.                                          |
 | `ToDo` | angryipscanner                        | Fast and friendly network scanner.                                   |
 
 
 ## Community Work - My personal task list
 | Status        | Task                                   | More Info                                                            |
 |---------------|----------------------------------------|----------------------------------------------------------------------|
-| `ToDo`        | Update RaidCall to newest version.     | Forked mom1's repo, working on it.                                   |
-| `ToDo`        | Status of LoL package?                 | Contacted maintainer to see if he's continuing maintenance.          |
+| `In-Progress`        | Status of LoL package?                 | Contacted maintainer to see if he's continuing maintenance.          |
 | `In-Progress` | Create Chocolatey Guide         | Simple yet detailed guide on managing Chocolatey packages.           |
-| `Done`        | Help mwrock w/ VS Community     | Waiting approval on [pull request]                                   |
-| `Done`        | Help mwrock w/ VS 2015 Preview  | Waiting approval on [pull request]                                   |
-| `Done`        | Help chaliy w/ new [rust]       | Done, updated [rust] installer.                                      |
 
 
 
