@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if ??? doesn?t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>angryip</id>
+    <title>AngryIP Scanner</title>
+    <version>3.3.2</version>
+    <authors>https://github.com/angryziber</authors>
+    <owners>Alex Lutz</owners>
+    <summary>Fast and friendly network scanner.</summary>
+    <description>
+      Angry IP Scanner (or simply ipscan) is an open-source and cross-platform network scanner designed to be fast and simple to use. It scans IP addresses and ports as well as has many other features.
+
+      It is widely used by network administrators and just curious users around the world, including large and small enterprises, banks, and government agencies.
+    </description>
+    <projectUrl>http://angryip.org/</projectUrl>
+    <tags>angryip angry scanner network ip</tags>
+    <licenseUrl>http://www.gnu.org/licenses/old-licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>http://cdn.rawgit.com/__CHOCO_PKG_MAINTAINER_REPO__/master/icons/angryip.png</iconUrl>
+    <dependencies>
+      <dependency id="javaruntime" version="" />
+    </dependencies>
+    <releaseNotes>https://github.com/angryziber/ipscan/blob/master/RELEASE-NOTES</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
