@@ -3,7 +3,7 @@
   <metadata>
     <id>clumsy</id>
     <title>clumsy</title>
-    <version>0.1.1</version>
+    <version>0.2</version>
     <authors>https://github.com/jagt/clumsy/graphs/contributors</authors>
     <owners>Alex Lutz @alexinslc</owners>
     <summary>An open source utility for simulating broken networks on Windows</summary>

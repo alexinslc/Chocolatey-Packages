@@ -5,10 +5,10 @@ $dest = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
 
 # Install Zip
 $packageName = 'clumsy'
-$url = 'https://github.com/jagt/clumsy/releases/download/0.1/clumsy-0.1-win32.zip'
-$url64 = 'https://github.com/jagt/clumsy/releases/download/0.1/clumsy-0.1-win64.zip'
-$checksum = 'B8EB28C399F15F02112F5461F6465153'
-$checksum64 = 'E75419E28321CDC2CB4CA6F9E4044FD0'
+$url = 'https://github.com/jagt/clumsy/releases/download/0.2/clumsy-0.2-win32.zip'
+$url64 = 'https://github.com/jagt/clumsy/releases/download/0.2/clumsy-0.2-win64.zip'
+$checksum = '9AAB0D257661A4F75831A7186254725B'
+$checksum64 = 'C5117EDAD320930D14D18C1CAC2A4CCD'
 Install-ChocolateyZipPackage "$packageName" "$url" "$dest" "$url64" -checksum $checksum -checksum64 $checksum64
 $exePath = $dest + '\clumsy.exe'
 
