@@ -30,7 +30,7 @@ A repo of [Chocolatey] packages I maintain.
 [rust]: https://chocolatey.org/packages/rust
 [pull request]: https://github.com/mwrock/Chocolatey-Packages/pull/23
 [node.js]: http://nodejs.org/
-[visualstudio2015utlimate]: https://chocolatey.org/packages/visualstudio2015ultimate
+[visualstudio2015ultimate]: https://chocolatey.org/packages/visualstudio2015ultimate
 [rescuetime]: https://www.rescuetime.com/installers/RescueTimeInstaller.exe
 [firefox-dev]: https://chocolatey.org/packages/firefox-dev
 [angryip]: http://angryip.org/
