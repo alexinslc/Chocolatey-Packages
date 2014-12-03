@@ -33,4 +33,4 @@ A repo of [Chocolatey] packages I maintain.
 [visualstudio2015ultimate]: https://chocolatey.org/packages/visualstudio2015ultimate
 [rescuetime]: https://www.rescuetime.com/installers/RescueTimeInstaller.exe
 [firefox-dev]: https://chocolatey.org/packages/firefox-dev
-[angryip]: http://angryip.org/
+[angryip]: https://chocolatey.org/packages/angryip
