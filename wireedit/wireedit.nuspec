@@ -4,14 +4,13 @@
   <metadata>
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>wireedit</id>
-    <title>wireedit</title>
+    <title>WireEdit</title>
     <version>0.11.430</version>
     <authors>Omnipacket</authors>
     <owners>Alex Lutz</owners>
     <summary>A Full Stack WYSIWYG Editor for Network Packets</summary>
     <description>
-      WireEdit allows you to edit any packet at any later from L1 to L7 with just
-      a few mouse clicks. No hacking required. No need to look at Hex dumps.
+      WireEdit allows you to edit any packet at any later from L1 to L7 with just a few mouse clicks. No hacking required. No need to look at Hex dumps.
     </description>
     <projectUrl>https://wireedit.com/</projectUrl>
     <tags>wireedit admin packet editor</tags>
