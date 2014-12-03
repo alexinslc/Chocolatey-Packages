@@ -10,8 +10,8 @@
     <owners>Alex Lutz</owners>
     <summary>Ghost is a free, open, simple blogging platform.</summary>
     <description>
-      Ghost is a simple, powerful publishing platform that allows you to share your stories with the world. This Chocolatey package will install
-      Ghost as a Windows service.
+      Ghost is a simple, powerful publishing platform that allows you to share your stories with the world. This Chocolatey package will install Ghost as a Windows service.
+      Once the package is installed, visit http://localhost:2368/ in your web browser or go to http://localhost:2368/ghost to log in.
     </description>
     <projectUrl>https://github.com/tryghost/Ghost</projectUrl>
     <tags>ghost admin nodejs blog</tags>
