@@ -9,7 +9,7 @@ A repo of [Chocolatey] packages I maintain.
 | [![](http://img.shields.io/chocolatey/dt/rvtools.svg)](https://chocolatey.org/packages/rvtools) | [rvtools]                        | Display information about VMware ESX VMs and more.                   |
 | [![](http://img.shields.io/chocolatey/dt/wireedit.svg)](https://chocolatey.org/packages/wireedit) | [wireedit]                       | A Full Stack WYSIWYG Editor for Network Packets.                     |
 | [![](http://img.shields.io/chocolatey/dt/visualstudio2015ultimate.svg)](https://chocolatey.org/packages/visualstudio2015ultimate) | [visualstudio2015preview]        | Visual Studio 2015 Preview.                                          |
-| `ToDo` | angryipscanner                        | Fast and friendly network scanner.                                   |
+| [![](http://img.shields.io/chocolatey/dt/angryip.svg)](https://chocolatey.org/packages/angryip) | angryipscanner                        | Fast and friendly network scanner.                                   |
 
 
 ## Community Work - My personal task list
