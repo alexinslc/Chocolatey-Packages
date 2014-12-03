@@ -8,8 +8,8 @@ A repo of [Chocolatey] packages I maintain.
 | [![](http://img.shields.io/chocolatey/dt/clumsy.svg)](https://chocolatey.org/packages/clumsy) | [clumsy]                        | Windows networking tool to alter packets.                            |
 | [![](http://img.shields.io/chocolatey/dt/rvtools.svg)](https://chocolatey.org/packages/rvtools) | [rvtools]                        | Display information about VMware ESX VMs and more.                   |
 | [![](http://img.shields.io/chocolatey/dt/wireedit.svg)](https://chocolatey.org/packages/wireedit) | [wireedit]                       | A Full Stack WYSIWYG Editor for Network Packets.                     |
-| [![](http://img.shields.io/chocolatey/dt/visualstudio2015ultimate.svg)](https://chocolatey.org/packages/visualstudio2015ultimate) | [visualstudio2015preview]        | Visual Studio 2015 Preview.                                          |
-| `ToDo` | angryipscanner                        | Fast and friendly network scanner.                                   |
+| [![](http://img.shields.io/chocolatey/dt/visualstudio2015ultimate.svg)](https://chocolatey.org/packages/visualstudio2015ultimate) | [visualstudio2015ultimate]        | Visual Studio 2015 Ultimate Preview.                                          |
+| [![](http://img.shields.io/chocolatey/dt/angryip.svg)](https://chocolatey.org/packages/angryip) | [angryip]                        | Fast and friendly network scanner.                                   |
 
 
 ## Community Work - My personal task list
@@ -30,6 +30,7 @@ A repo of [Chocolatey] packages I maintain.
 [rust]: https://chocolatey.org/packages/rust
 [pull request]: https://github.com/mwrock/Chocolatey-Packages/pull/23
 [node.js]: http://nodejs.org/
-[visualstudio2015preview]: https://chocolatey.org/packages/visualstudio2015preview
+[visualstudio2015ultimate]: https://chocolatey.org/packages/visualstudio2015ultimate
 [rescuetime]: https://www.rescuetime.com/installers/RescueTimeInstaller.exe
 [firefox-dev]: https://chocolatey.org/packages/firefox-dev
+[angryip]: https://chocolatey.org/packages/angryip
