@@ -12,14 +12,6 @@ A repo of [Chocolatey] packages I maintain.
 | [![](http://img.shields.io/chocolatey/dt/angryip.svg)](https://chocolatey.org/packages/angryip) | [angryip]                        | Fast and friendly network scanner.                                   |
 
 
-## Community Work - My personal task list
-| Status        | Task                                   | More Info                                                            |
-|---------------|----------------------------------------|----------------------------------------------------------------------|
-| `In-Progress`        | Status of LoL package?                 | Contacted maintainer to see if he's continuing maintenance.          |
-| `In-Progress` | Create Chocolatey Guide         | Simple yet detailed guide on managing Chocolatey packages.           |
-
-
-
 <!-- Links -->
 
 [Chocolatey]: https://chocolatey.org/
