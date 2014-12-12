@@ -7,7 +7,11 @@
     <authors>Blake Callens</authors>
     <owners>Alex Lutz</owners>
     <summary>An open source node.js CMS.</summary>
-    <description>An open source, extendable, responsive, scaleable, easy to use, node.js CMS.</description>
+    <description>
+    An open source, extendable, responsive, scaleable, easy to use, node.js CMS. This will install PencilBlue as a Windows service. 
+
+    You can navigate to your new pencilblue site by visiting http://localhost:8080
+    </description>
     <projectUrl>https://pencilblue.org</projectUrl>
     <tags>pencilblue admin nodejs cms</tags>
     <copyright></copyright>
