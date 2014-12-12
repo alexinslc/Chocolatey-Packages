@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>pencilblue</id>
+    <title>PencilBlue</title>
+    <version>0.3.0</version>
+    <authors>Blake Callens</authors>
+    <owners>Alex Lutz</owners>
+    <summary>An open source node.js CMS.</summary>
+    <description>An open source, extendable, responsive, scaleable, easy to use, node.js CMS.</description>
+    <projectUrl>https://pencilblue.org</projectUrl>
+    <tags>pencilblue admin nodejs cms</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.gnu.org/copyleft/gpl.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/alexinslc/alexinslc-chocolatey-packages/master/_icons/pb_icon.png</iconUrl>
+    <dependencies>
+      <dependency id="nodejs" />
+      <dependency id="mongodb" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <file src="config\**" target="config" />
+  </files>
+</package>
