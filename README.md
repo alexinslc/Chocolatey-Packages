@@ -4,12 +4,12 @@ A repo of [Chocolatey] packages I maintain.
 ## Let's get Chocolatey!
 | Downloads | Package Name                    | Description                                                          |
 |-----------|---------------------------------|----------------------------------------------------------------------|
+| [![](http://img.shields.io/chocolatey/dt/angryip.svg)](https://chocolatey.org/packages/angryip) | [angryip]                        | Fast and friendly network scanner.                                   |
 | [![](http://img.shields.io/chocolatey/dt/ghost.svg)](https://chocolatey.org/packages/ghost) | [ghost]                          | Simple blogging platform built on [node.js]                          |
 | [![](http://img.shields.io/chocolatey/dt/clumsy.svg)](https://chocolatey.org/packages/clumsy) | [clumsy]                        | Windows networking tool to alter packets.                            |
 | [![](http://img.shields.io/chocolatey/dt/rvtools.svg)](https://chocolatey.org/packages/rvtools) | [rvtools]                        | Display information about VMware ESX VMs and more.                   |
 | [![](http://img.shields.io/chocolatey/dt/wireedit.svg)](https://chocolatey.org/packages/wireedit) | [wireedit]                       | A Full Stack WYSIWYG Editor for Network Packets.                     |
 | [![](http://img.shields.io/chocolatey/dt/visualstudio2015ultimate.svg)](https://chocolatey.org/packages/visualstudio2015ultimate) | [visualstudio2015ultimate]        | Visual Studio 2015 Ultimate Preview.                                          |
-| [![](http://img.shields.io/chocolatey/dt/angryip.svg)](https://chocolatey.org/packages/angryip) | [angryip]                        | Fast and friendly network scanner.                                   |
 
 
 <!-- Links -->
