@@ -32,7 +32,7 @@ You'll need a few things to become a chocolatier.
   # Close and re-open your PowerShell window **As an Administrator**.
 
   # Install git.
-  chocolatey install git
+  choco install git -y
 
   # Add git/bin to your system PATH.
   # You may want to enter these commands one at a time. (Will try to fix later.)
@@ -44,14 +44,14 @@ You'll need a few things to become a chocolatier.
 
 3. **Install Posh-Git**:
   ```powershell
-  chocolatey install poshgit
+  choco install poshgit -y
   ```
 
 4. **Install Chocolatey Package Updater**:
 
   ```powershell
   # Install Chocolatey Package Updater.
-  chocolatey install chocolateypackageupdater
+  choco install chocolateypackageupdater -y
   ```
 
 ## Start making packages!
